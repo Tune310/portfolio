@@ -16,6 +16,7 @@
   "author": "Reid Crawford",
   "license": "ISC",
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.11",
     "angular-ui-router": "^1.0.3",
     "bourbon": "^4.3.4",
     "bower": "^1.8.2",
