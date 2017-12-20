@@ -1,0 +1,32 @@
+{
+  "name": "portfollio",
+  "description": "Reid Crawford's Portfollio",
+  "main": "app.js",
+  "authors": [
+    "Reid Crawford"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Portfollio",
+    "Node",
+    "Javascript",
+    "Reid",
+    "Crawford"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-loader": "^1.6.7",
+    "angular-mocks": "^1.6.7",
+    "angular-ui-router": "^1.0.11",
+    "angular": "^1.6.7",
+    "html5-boilerplate": "^6.0.1"
+  }
+}
