@@ -1,1 +1,5 @@
-<h1>This is the homepage</h1>
+<div ng-repeat="project in projects">
+	<div class="flex">
+		<h1 class="text-center"><a ng-href="{{ project.href }}">{{ project.name}}</a></h1>
+	</div>
+</div>

@@ -1,3 +1,6 @@
+.text-center {
+  text-align: center; }
+
 #responsive-header {
   display: none;
   position: relative; }
