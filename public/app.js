@@ -1,6 +1,6 @@
 (function(){
   angular.module('app', ['ui.router'])
-    .controller('mainCtrl', function($scope){
+    .controller('MainController', function($scope){
        $scope.projects = [
        {
         name: "BuzzBar", 
@@ -29,11 +29,11 @@
 
     $stateProvider
 
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        // ABOUT PAGE AND MULTIPLE NAMED VIEWS
         .state('home', {
             url: '/home',
             templateUrl: '/views/home.html',      
-            controller: 'mainCtrl'
+            controller: 'MainController'
         })
         .state('about', {
             url: '/about',
