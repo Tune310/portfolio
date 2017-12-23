@@ -21,11 +21,7 @@
         description: "This site was made with php and Laravel Framework"
        }
     ]
-    var projects = $scope.projects;
-       console.log(projects);
-       for (var i = 0; i < projects.length; i++) {
-            console.log(projects[i].name);
-        }
+       console.log($scope.projects);
     })
     .config(function($stateProvider, $urlRouterProvider) {
 
