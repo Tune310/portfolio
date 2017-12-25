@@ -25,41 +25,14 @@
      
     <!-- <div class="container-fluid"> -->
   <div class="wrapper">
-    <nav class="navbar navbar-default" id="nav-header">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" ui-sref="home">Reid M. Crawford</a>
-            <br>
-            <span>Web&nbsp;Developer | Digital Creative</span>
-          </div>
-          <ul class="nav navbar-nav pull-right">
-            <li ui-sref-active="active"><a ui-sref="home">Home</a></li>
-            <li ui-sref-active="active"><a ui-sref="about">About</a></li>
-            <li ui-sref-active="active"><a ui-sref="#">Page 2</a></li>
-            <li ui-sref-active="active"><a ui-sref="#">Page 3</a></li>
-          </ul>
-        </div>
-      </nav>
+
+    <!-- Navbar partial -->
+    <navbar></navbar>
+    <!-- End Navbar partial -->
 
       <!-- Responsive Header -->
-      <div class="pos-f-t" id="responsive-header">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-inverse p-4">
-            <ul class="nav navbar-nav" id="nav-toggle">
-                <li ui-sref-active="active"><a ui-sref="home">Home</a></li>
-                <li ui-sref-active="active"><a ui-sref="about">About</a></li>
-                <li ui-sref-active="active"><a ui-sref="#">Page 2</a></li>
-                <li ui-sref-active="active"><a ui-sref="#">Page 3</a></li>
-          </ul>
-          </div>
-        </div>
-        <nav class="navbar navbar-inverse bg-inverse">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          </button>
-        </nav>
-
-      </div>
+     <navbar-responsive></navbar-responsive>
+      <!-- End Resonsive Header -->
               <div class="container">
                   <div ui-view></div><!-- This activates Ui Router view templates in the partials to be able to display in the webpage -->
               </div>
@@ -74,6 +47,10 @@
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="/app.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="components/navbar/navbar.js"></script>
+    <script src="components/navbar-responsive/navbar-responsive.js"></script>
+    
+    
     
 
 

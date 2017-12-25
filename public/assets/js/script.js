@@ -1,14 +1,18 @@
 $(function(){
-	$(".navbar-toggler").hover(function(e){
+	$(".wrapper").on('mouseenter', '.navbar-toggler', function(e){
 		console.log(e);
-		$(".fa-bars").toggleClass("hamburger-hover");
-	}); 
+		$(".fa-bars").addClass("hamburger-hover");
+	});
+	$(".wrapper").on('mouseleave', '.navbar-toggler', function(e){
+		console.log(e);
+		$(".fa-bars").removeClass("hamburger-hover");
+	});
 
-	$(".navbar-toggler").on("click", function(e){
+	$(".wrapper").on("click", '.navbar-toggler', function(e){
 		$(".fa-bars").toggleClass("hamburger-blue");
 	});
 	
-	$("#responsive-header li a").on("click", function(e){
+	$(".wrapper").on("click", '.navbar-nav li a', function(e){
 		console.log(e);
 		$(".navbar-toggler").click();
 	});
