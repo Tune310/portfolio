@@ -24,21 +24,19 @@
 <body>
      
     <!-- <div class="container-fluid"> -->
-  <div class="wrapper">
+  
 
     <!-- Navbar partial -->
     <navbar></navbar>
     <!-- End Navbar partial -->
-
+  
       <!-- Responsive Header -->
      <navbar-responsive id="responsehead"></navbar-responsive>
       <!-- End Resonsive Header -->
 
-              <div class="container">
-                  <div ui-view></div><!-- This activates Ui Router view templates in the partials to be able to display in the webpage -->
-              </div>
-          </div>
-  </div>
+      <!-- This activates Ui Router view templates in the partials to be able to display in the webpage -->    
+      <div ui-view class="wrapper"></div>
+        
 
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
