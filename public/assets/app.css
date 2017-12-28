@@ -53,3 +53,7 @@
 @media screen and (min-width: 400px) {
   .hamburger-hover {
     color: #928080 !important; } }
+
+@media screen and (min-width: 1201px) {
+  .container {
+    width: 1280px !important; } }
