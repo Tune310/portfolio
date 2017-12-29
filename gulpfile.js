@@ -56,7 +56,7 @@ gulp.task('jshint', function() {
 
 // watch our scss files for changes
 gulp.task('watch', function() {
-    gulp.watch('public/assets/styles/app.scss', ['scss']);
+    gulp.watch('public/assets/styles/**/*.scss', ['scss']);
     gulp.watch('scripts/*.js', ['jshint']);
 });
 

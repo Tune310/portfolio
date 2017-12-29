@@ -1,6 +1,9 @@
 .text-center {
   text-align: center; }
 
+.wrapper ul li {
+  list-style-type: none; }
+
 #responsive-header {
   display: none;
   position: relative; }
@@ -85,7 +88,6 @@
   -ms-flex-direction: column; }
 
 .container {
-  padding-top: 15px !important;
   width: 100% !important;
   padding-left: 50px !important;
   padding-right: 50px !important; }
