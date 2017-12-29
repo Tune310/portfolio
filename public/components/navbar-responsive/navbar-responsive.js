@@ -1,6 +1,6 @@
 angular
 .module('app')
-.controller('NavController', function($scope){
+.controller('ResponsiveNavController', function($scope){
 	$("navbar-responsive").on('mouseenter', '.navbar-toggler', function(e){
 	console.log(e);
 	$(".fa-bars").addClass("hamburger-hover");
@@ -21,6 +21,6 @@ angular
 })
 .component('navbarResponsive', {
     templateUrl: "components/navbar-responsive/navbar-responsive.html",
-    controller: "NavController"
+    controller: "ResponsiveNavController"
 })
  
