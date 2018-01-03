@@ -1,6 +1,6 @@
 @import "bourbon";
 @import "sass/_utility";
-@import "sass/_home";
+@import "sass/_about";
 
 #responsive-header {
 	display: none;
@@ -70,4 +70,8 @@
 
 nav {
 	margin-bottom: 0px !important;
+}
+
+li {
+	list-style-type: none;
 }

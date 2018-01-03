@@ -30,19 +30,23 @@
     $stateProvider
 
         // ABOUT PAGE AND MULTIPLE NAMED VIEWS
-        .state('home', {
-            url: '/home',
-            templateUrl: '/views/home.html',      
-            controller: 'MainController'
+        // .state('about', {
+        //     url: '/about',
+        //     templateUrl: '/views/about.html',      
+        //     controller: 'MainController'
+        // })
+        .state('contact', {
+            url: '/contact',
+            // templateUrl: '/views/about.html'       
         })
-        .state('about', {
-            url: '/about',
-            templateUrl: '/views/about.html'       
-        })
-        .state('projects', {
-            url: '/projects',
+        
+    })
+    .component('projects', {
             templateUrl: '/views/projects.html',      
             controller: 'MainController'
-        });
+        })
+    .component('about', {
+        templateUrl: '/views/about.html',      
+        controller: 'MainController'
     });
 })()

@@ -150,3 +150,6 @@
 
 nav {
   margin-bottom: 0px !important; }
+
+li {
+  list-style-type: none; }
