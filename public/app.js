@@ -38,6 +38,11 @@
         .state('about', {
             url: '/about',
             templateUrl: '/views/about.html'       
+        })
+        .state('projects', {
+            url: '/projects',
+            templateUrl: '/views/projects.html',      
+            controller: 'MainController'
         });
     });
 })()
