@@ -23,30 +23,32 @@
     ]
        console.log($scope.projects);
     })
-    .config(function($stateProvider, $urlRouterProvider) {
+    // .config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home');
+    // // $urlRouterProvider.otherwise('/home');
 
-    $stateProvider
+    // $stateProvider
 
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS
-        // .state('about', {
-        //     url: '/about',
-        //     templateUrl: '/views/about.html',      
-        //     controller: 'MainController'
-        // })
-        .state('contact', {
-            url: '/contact',
-            // templateUrl: '/views/about.html'       
-        })
+    //     // ABOUT PAGE AND MULTIPLE NAMED VIEWS
+    //     // .state('about', {
+    //     //     url: '/about',
+    //     //     templateUrl: '/views/about.html',      
+    //     //     controller: 'MainController'
+    //     // })
+    //     .state('contact', {
+    //         url: '/contact',
+    //         // templateUrl: '/views/about.html'       
+    //     })
         
-    })
+    // })
+    .component('about', {
+            templateUrl: '/views/about.html'     
+        })
     .component('projects', {
-            templateUrl: '/views/projects.html',      
+            templateUrl: '/views/projects.html',
             controller: 'MainController'
         })
-    .component('about', {
-        templateUrl: '/views/about.html',      
-        controller: 'MainController'
+    .component('contact', {
+        templateUrl: '/views/contact.html'
     });
 })()
