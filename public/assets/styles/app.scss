@@ -7,6 +7,10 @@
 	position: relative;
 	@media screen and (max-width: 767px) {
 	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(60, 59, 66, 0.5);
 	}
 	.navbar-toggler {
 		position: relative;
@@ -32,9 +36,18 @@
 		margin-top: 15px;
    		font-size: 20px;
 	}
+	li a {
+		color: white;
+	}
 }
 
 #nav-header {
+	background-color: rgba(60,59,66,0.5);
+	background-image: none;
+	border: none;
+	span{
+		color: white;
+	}
 	@media screen and (max-width: 767px) {
 		display: none;
 	} 
@@ -61,7 +74,9 @@
 
 }
 
-
+.navbar-brand {
+	color: white !important;
+}
 .container {
 	width: 100% !important;
 	padding-left: 50px !important;
