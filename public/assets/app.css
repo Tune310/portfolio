@@ -105,7 +105,8 @@
     margin-top: 15px;
     font-size: 20px; }
   #responsive-header li a {
-    color: white; }
+    color: white;
+    font-weight: 900; }
 
 #nav-header {
   background-color: rgba(60, 59, 66, 0.5);
@@ -114,7 +115,11 @@
   #nav-header span {
     color: white; }
   #nav-header li a {
-    color: white; }
+    color: white;
+    font-weight: 900; }
+  #nav-header .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px; }
   @media screen and (max-width: 767px) {
     #nav-header {
       display: none; } }
@@ -158,7 +163,8 @@
   -ms-flex-direction: column; }
 
 .navbar-brand {
-  color: white !important; }
+  color: white !important;
+  font-weight: 900; }
 
 .container {
   width: 100% !important;

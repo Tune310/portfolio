@@ -38,6 +38,7 @@
 	}
 	li a {
 		color: white;
+		font-weight: 900;
 	}
 }
 
@@ -50,6 +51,11 @@
 	}
 	li a {
 		color: white;
+		font-weight: 900;
+	}
+	.container-fluid {
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	@media screen and (max-width: 767px) {
 		display: none;
@@ -79,6 +85,7 @@
 
 .navbar-brand {
 	color: white !important;
+	font-weight: 900;
 }
 .container {
 	width: 100% !important;
