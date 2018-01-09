@@ -1,12 +1,10 @@
 <h1>Projects</h1>
-<div ng-repeat="project in projects">
-	<div class="{{project.name}}" id="{{ project.id + '-containter'}}">
-		<ul>
-		  <li><h1 class="text-center"><a href="{{ project.href }}">{{ project.name }}</a></h1></li>
-		</ul>
+<div id="projects-wrapper">
+	<div ng-repeat="project in projects">
+		<div class="{{project.name}}" id="{{ project.id + '-containter'}}">
+			<ul>
+			  <li><h1 class="text-center"><a href="{{ project.href }}">{{ project.name }}</a></h1></li>
+			</ul>
+		</div>
 	</div>
-</div>
-
-<div class="container">
-
 </div>

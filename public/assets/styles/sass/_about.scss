@@ -11,10 +11,22 @@
 
 .hero-content {
 	@include display(flex);
-	@include justify-content(center);
-	width: 70%;
+	@include flex-direction(column);
+	padding: 2% 4%;
+	width: 50%;
 	height: 70%;
 	margin: 0 auto;
 	background-color: rgba(141,144,148,0.5);
 	color: white;
+	a {
+		color: white;
+	}
+	@media screen and (min-width: 415px) {
+		p {
+			margin: 10px 0px;
+		}
+	} 
+	@media screen and (max-width: 465px) {
+		width: 57%;
+	} 
 }

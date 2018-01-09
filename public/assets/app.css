@@ -4,6 +4,9 @@
 .wrapper ul li {
   list-style-type: none; }
 
+a {
+  text-decoration: none; }
+
 .hero-banner {
   width: 100%;
   height: 600px;
@@ -45,20 +48,34 @@
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  width: 70%;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  padding: 2% 4%;
+  width: 50%;
   height: 70%;
   margin: 0 auto;
   background-color: rgba(141, 144, 148, 0.5);
   color: white; }
+  .hero-content a {
+    color: white; }
+  @media screen and (min-width: 415px) {
+    .hero-content p {
+      margin: 10px 0px; } }
+  @media screen and (max-width: 465px) {
+    .hero-content {
+      width: 57%; } }
+
+#projects-wrapper {
+  padding-left: 75px;
+  padding-right: 75px; }
 
 #responsive-header {
   display: none;
