@@ -6,19 +6,22 @@
         name: "BuzzBar", 
         href: "https://buzzbaricecream.com/",
         id: "buzzbar",
-        description: "Wordpress Website"
+        description: "Wordpress Website",
+        src: "/assets/images/buzzbar-logo.png"
        },
        {
         name: "TravelZeeky",
         href: "https://travelzeeky.com/allroads",
         id: "travelzeeky",
-        description: "Travel site for dicounts made with PHP"
+        description: "Travel site for dicounts made with PHP",
+        src: "/assets/images/travelzeeky-logo.png"
        },
        {
         name: "Start or Sit",
         href: "https://startorsit.com/",
         id: "startorsit",
-        description: "This site was made with php and Laravel Framework"
+        description: "This site was made with php and Laravel Framework",
+        src: "/assets/images/startorsit-logo.png"
        }
     ]
        console.log($scope.projects);
