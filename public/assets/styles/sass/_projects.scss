@@ -1,12 +1,24 @@
 #projects-wrapper {
 	padding-left: 75px;
 	padding-right: 75px;
+	@media screen and (max-width: 559px) {
+		padding-left: 0px;
+		padding-right: 0px;
+	} 
 
 	ul {
 		@include display(flex);
 		@include justify-content(space-around);
 		@include align-items(center);
+		@media screen and (max-width: 559px) {
+			@include flex-direction(column);
+			li {
+				margin: 15px 0px;
+			}
+		} 
 	}
+
+
 	li#startorsit-container img {
 		transform: scale(2);
 	}
