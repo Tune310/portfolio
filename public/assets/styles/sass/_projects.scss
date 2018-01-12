@@ -1,7 +1,7 @@
 #projects-wrapper {
 	padding-left: 75px;
 	padding-right: 75px;
-	@media screen and (max-width: 559px) {
+	@media screen and (max-width: 800px) {
 		padding-left: 0px;
 		padding-right: 0px;
 	} 
@@ -10,7 +10,7 @@
 		@include display(flex);
 		@include justify-content(space-around);
 		@include align-items(center);
-		@media screen and (max-width: 559px) {
+		@media screen and (max-width: 600px) {
 			@include flex-direction(column);
 			li {
 				margin: 15px 0px;
