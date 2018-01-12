@@ -8,6 +8,10 @@ $(function(){
 		    }, 500);
 		}
 	});
+
+	$("body").on('click', 'a.navbar-logo', function(clickEvent){
+		$(this).css('text-decoration', 'none');
+	})
 	 
 	$.get('https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_ten', function (data) {
 	  console.log(data);
