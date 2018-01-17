@@ -19,4 +19,8 @@ $(function(){
 	     	console.log(data[i].punchline);
 	   }
 	})
+
+	var date = new Date();
+	var fullYear = date.getFullYear();
+	$('.footer-wrapper span').append(fullYear);
 });
