@@ -26,4 +26,15 @@
 	li#startorsit-container img {
 		transform: scale(2);
 	}
+
+	@media screen and (max-width: 480px) {
+		height: 100%;
+		img	{
+			margin: 10px 0px;
+		}
+	} 
+}
+
+h1#projects-header {
+	margin-top: 10px !important;
 }

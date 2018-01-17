@@ -156,6 +156,24 @@ a:hover {
           margin: 15px 0px; } }
   #projects-wrapper li#startorsit-container img {
     transform: scale(2); }
+  @media screen and (max-width: 480px) {
+    #projects-wrapper {
+      height: 100%; }
+      #projects-wrapper img {
+        margin: 10px 0px; } }
+
+h1#projects-header {
+  margin-top: 10px !important; }
+
+.contact-outerwrap {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  @media screen and (max-width: 480px) {
+    .contact-outerwrap {
+      height: 640px; } }
+
+h1#contact-header {
+  margin-top: 10px !important; }
 
 div#contact {
   display: -webkit-box;
@@ -184,8 +202,30 @@ div#contact {
   align-items: center;
   -ms-flex-align: center;
   height: 475px; }
+  @media screen and (max-width: 480px) {
+    div#contact {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-box-direction: normal;
+      -moz-box-direction: normal;
+      box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      width: 100%;
+      height: 500px;
+      margin-top: 30px; }
+      div#contact iframe {
+        width: 100%;
+        margin: 20px 0px;
+        height: 790px; } }
   div#contact ul.contact-wrapper {
     height: 300px; }
+    @media screen and (max-width: 480px) {
+      div#contact ul.contact-wrapper {
+        padding-left: 0px !important; } }
 
 #responsive-header {
   display: none;
@@ -268,6 +308,21 @@ div#contact {
     #nav-header {
       display: none; } }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px !important; }
+
+.grey-rectangle {
+  height: 2px;
+  width: 72px;
+  margin: 0 auto !important;
+  text-align: center;
+  display: block; }
+
 @media screen and (max-width: 399px) {
   .hamburger-blue {
     color: blue !important; } }
@@ -322,12 +377,19 @@ nav {
 li {
   list-style-type: none; }
 
+.section-wrapper {
+  background-color: #f5f5f5;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  @media screen and (max-width: 480px) {
+    .section-wrapper {
+      height: 550px; } }
+
 #projects div ul {
   padding-left: 0px; }
 
 #projects h1 {
-  text-align: center;
-  margin: 25px 0px; }
+  text-align: center; }
 
 footer {
   background-color: #f5f5f5;

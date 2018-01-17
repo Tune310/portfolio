@@ -1,9 +1,33 @@
+.contact-outerwrap {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	@media screen and (max-width: 480px) {
+		height: 640px;
+	} 
+}
+h1#contact-header {
+	margin-top: 10px !important;
+}
 div#contact {
 	@include display(flex);
 	@include justify-content(center);
 	@include align-items(center);
 	height: 475px;
+	@media screen and (max-width: 480px) {
+		@include flex-direction(column);
+		width: 100%;
+		height: 500px;
+		margin-top: 30px;
+		iframe {
+			width: 100%;
+			margin: 20px 0px;
+			height: 790px;
+		}
+	} 
 	ul.contact-wrapper {
 		height: 300px;
+		@media screen and (max-width: 480px) {
+			padding-left: 0px !important;
+		} 
 	}
 }
