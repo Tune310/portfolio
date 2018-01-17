@@ -3,4 +3,7 @@ div#contact {
 	@include justify-content(center);
 	@include align-items(center);
 	height: 475px;
+	ul.contact-wrapper {
+		height: 300px;
+	}
 }
