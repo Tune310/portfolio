@@ -1,0 +1,10 @@
+div#contact {
+	@include display(flex);
+	@include justify-content(center);
+	@include align-items(center);
+	height: 475px;
+	iframe{
+		width: 475px;
+		height: 300px;
+	}
+}
