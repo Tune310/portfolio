@@ -80,6 +80,9 @@ a:hover {
   @media screen and (max-width: 465px) {
     .hero-content {
       width: 57%; } }
+  @media screen and (max-width: 360px) {
+    .hero-content {
+      height: 75%; } }
 
 .fa-laptop {
   margin-bottom: 10px; }
