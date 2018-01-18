@@ -61,6 +61,10 @@
 		@include align-items(center);
 		padding-left: 50px;
 		padding-right: 50px;
+		@media screen and (min-width: 1850px) {
+			width: 95%;
+			margin: 0 auto;	
+		} 
 	}
 	ul.navbar-nav {
 		margin-left: auto;

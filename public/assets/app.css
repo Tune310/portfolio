@@ -316,6 +316,10 @@ div#contact {
     -ms-flex-align: center;
     padding-left: 50px;
     padding-right: 50px; }
+    @media screen and (min-width: 1850px) {
+      #nav-header .container-fluid {
+        width: 95%;
+        margin: 0 auto; } }
   #nav-header ul.navbar-nav {
     margin-left: auto; }
   @media screen and (max-width: 767px) {
