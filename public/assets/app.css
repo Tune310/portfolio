@@ -77,12 +77,16 @@ a:hover {
   @media screen and (min-width: 415px) {
     .hero-content p {
       margin: 10px 0px; } }
-  @media screen and (max-width: 465px) {
+  @media screen and (max-width: 480px) {
     .hero-content {
-      width: 57%; } }
+      width: 57%;
+      overflow: hidden !important; } }
   @media screen and (max-width: 360px) {
     .hero-content {
-      height: 75%; } }
+      height: 75% !important; } }
+  @media screen and (max-width: 325px) {
+    .hero-content {
+      height: 78% !important; } }
 
 .fa-laptop {
   margin-bottom: 10px; }
