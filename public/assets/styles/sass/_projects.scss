@@ -3,6 +3,7 @@
 		width: 85%;
 		margin: 0 auto;
 	} 
+	overflow: hidden !important;
 	padding-left: 75px;
 	padding-right: 75px;
 	height: 300px;
@@ -31,7 +32,7 @@
 		transform: scale(2);
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 600px) {
 		height: 100%;
 		img	{
 			margin: 10px 0px;

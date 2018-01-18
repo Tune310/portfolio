@@ -1,7 +1,7 @@
 .contact-outerwrap {
 	padding-top: 35px;
 	padding-bottom: 35px;
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 600px) {
 		height: 640px;
 	} 
 }
@@ -13,9 +13,10 @@ div#contact {
 	@include justify-content(center);
 	@include align-items(center);
 	height: 475px;
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 600px) {
 		@include flex-direction(column);
-		width: 100%;
+		width: 85%;
+		margin: 0 auto;
 		height: 500px;
 		margin-top: 30px;
 		iframe {
@@ -23,7 +24,10 @@ div#contact {
 			margin: 20px 0px;
 			height: 790px;
 		}
-	} 
+	}
+	@media screen and (max-width: 480px) {
+	 	width: 90%;
+	 }  
 	ul.contact-wrapper {
 		height: 300px;
 		li {
@@ -32,7 +36,7 @@ div#contact {
 		a {
 			color: black !important;
 		}
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 600px) {
 			padding-left: 0px !important;
 		} 
 	}

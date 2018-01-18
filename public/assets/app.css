@@ -92,6 +92,7 @@ a:hover {
   margin-bottom: 10px; }
 
 #projects-wrapper {
+  overflow: hidden !important;
   padding-left: 75px;
   padding-right: 75px;
   height: 300px;
@@ -171,7 +172,7 @@ a:hover {
           margin: 15px 0px; } }
   #projects-wrapper li#startorsit-container img {
     transform: scale(2); }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     #projects-wrapper {
       height: 100%; }
       #projects-wrapper img {
@@ -183,7 +184,7 @@ h1#projects-header {
 .contact-outerwrap {
   padding-top: 35px;
   padding-bottom: 35px; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .contact-outerwrap {
       height: 640px; } }
 
@@ -217,7 +218,7 @@ div#contact {
   align-items: center;
   -ms-flex-align: center;
   height: 475px; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     div#contact {
       -webkit-box-orient: vertical;
       -moz-box-orient: vertical;
@@ -229,20 +230,24 @@ div#contact {
       -moz-flex-direction: column;
       flex-direction: column;
       -ms-flex-direction: column;
-      width: 100%;
+      width: 85%;
+      margin: 0 auto;
       height: 500px;
       margin-top: 30px; }
       div#contact iframe {
         width: 100%;
         margin: 20px 0px;
         height: 790px; } }
+  @media screen and (max-width: 480px) {
+    div#contact {
+      width: 90%; } }
   div#contact ul.contact-wrapper {
     height: 300px; }
     div#contact ul.contact-wrapper li {
       font-family: 'Open Sans', sans-serif; }
     div#contact ul.contact-wrapper a {
       color: black !important; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
       div#contact ul.contact-wrapper {
         padding-left: 0px !important; } }
 
@@ -409,7 +414,7 @@ li {
   background-color: #f5f5f5;
   padding-top: 35px;
   padding-bottom: 35px; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .section-wrapper {
       height: 550px; } }
 
