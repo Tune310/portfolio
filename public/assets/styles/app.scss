@@ -4,6 +4,10 @@
 @import "sass/_projects";
 @import "sass/_contact";
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
 #responsive-header {
 	display: none;
 	position: relative;

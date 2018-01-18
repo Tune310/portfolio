@@ -3,6 +3,9 @@
 		width: 85%;
 		margin: 0 auto;
 	} 
+	@media screen and (min-height: 1900px) {
+		height: 550px;
+	} 
 	overflow: hidden !important;
 	padding-left: 75px;
 	padding-right: 75px;
