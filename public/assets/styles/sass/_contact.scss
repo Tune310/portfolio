@@ -26,6 +26,12 @@ div#contact {
 	} 
 	ul.contact-wrapper {
 		height: 300px;
+		li {
+			font-family: 'Open Sans', sans-serif;
+		}
+		a {
+			color: black !important;
+		}
 		@media screen and (max-width: 480px) {
 			padding-left: 0px !important;
 		} 

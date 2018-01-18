@@ -25,6 +25,7 @@
 	h3 {
 		font-size: 16px;
 		font-weight: 600;
+		margin-bottom: 20px;
 	}
 	@media screen and (min-width: 415px) {
 		p {
@@ -34,4 +35,8 @@
 	@media screen and (max-width: 465px) {
 		width: 57%;
 	} 
+}
+
+.fa-laptop {
+	margin-bottom: 10px;
 }

@@ -8,7 +8,7 @@
 	display: none;
 	position: relative;
 	@media screen and (max-width: 767px) {
-	display: block;
+	display: none;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -48,6 +48,8 @@
 	background-color: rgba(60,59,66,0.5);
 	background-image: none;
 	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	span{
 		color: white;
 	}
@@ -64,7 +66,11 @@
 		margin-left: auto;
 	}
 	@media screen and (max-width: 767px) {
-		display: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		ul {
+			display: none;
+		}
 	} 
 }
 

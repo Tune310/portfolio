@@ -72,13 +72,17 @@ a:hover {
     color: white; }
   .hero-content h3 {
     font-size: 16px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-bottom: 20px; }
   @media screen and (min-width: 415px) {
     .hero-content p {
       margin: 10px 0px; } }
   @media screen and (max-width: 465px) {
     .hero-content {
       width: 57%; } }
+
+.fa-laptop {
+  margin-bottom: 10px; }
 
 #projects-wrapper {
   padding-left: 75px;
@@ -223,6 +227,10 @@ div#contact {
         height: 790px; } }
   div#contact ul.contact-wrapper {
     height: 300px; }
+    div#contact ul.contact-wrapper li {
+      font-family: 'Open Sans', sans-serif; }
+    div#contact ul.contact-wrapper a {
+      color: black !important; }
     @media screen and (max-width: 480px) {
       div#contact ul.contact-wrapper {
         padding-left: 0px !important; } }
@@ -232,7 +240,7 @@ div#contact {
   position: relative; }
   @media screen and (max-width: 767px) {
     #responsive-header {
-      display: block;
+      display: none;
       position: fixed;
       top: 0;
       width: 100%;
@@ -278,7 +286,9 @@ div#contact {
 #nav-header {
   background-color: rgba(60, 59, 66, 0.5);
   background-image: none;
-  border: none; }
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px; }
   #nav-header span {
     color: white; }
   #nav-header li a {
@@ -306,7 +316,10 @@ div#contact {
     margin-left: auto; }
   @media screen and (max-width: 767px) {
     #nav-header {
-      display: none; } }
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      #nav-header ul {
+        display: none; } }
 
 h1 {
   font-family: 'Playfair Display', serif;
