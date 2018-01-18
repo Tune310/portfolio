@@ -114,6 +114,10 @@ a:hover {
   -o-justify-content: center;
   justify-content: center;
   -ms-flex-pack: center; }
+  @media screen and (min-width: 1850px) {
+    #projects-wrapper {
+      width: 85%;
+      margin: 0 auto; } }
   @media screen and (max-width: 800px) {
     #projects-wrapper {
       padding-left: 0px;
