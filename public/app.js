@@ -21,7 +21,14 @@
         href: "https://startorsit.com/",
         id: "startorsit",
         description: "This site was made with php and Laravel Framework",
-        src: "/assets/images/startorsit-logo.png"
+        src: "/assets/images/SOS-full-logo-white.png"
+       },
+       {
+        name: "LittyTrend",
+        href: "https://Littytrend.com/",
+        id: "littytrend",
+        description: "Site built in Shopify",
+        src: "/assets/images/litty-logo.png"
        }
     ]
        console.log($scope.projects);
