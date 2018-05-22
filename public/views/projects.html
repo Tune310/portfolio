@@ -6,6 +6,9 @@
 		<ul>
 			<li ng-repeat="project in projects" id="{{ project.id + '-container'}}"><a href="{{ project.href }}" target="_blank"><img src="{{project.src}}"></a></li>
 		</ul>
+		<ul>
+			<li ng-repeat="project in projectstwo" id="{{ project.id + '-container'}}"><a href="{{ project.href }}" target="_blank"><img src="{{project.src}}"></a></li>
+		</ul>
 		<!-- <div ng-repeat="project in projects">
 			<div class="{{project.name}}" id="{{ project.id + '-container'}}">
 				<img src="{{project.src}}">

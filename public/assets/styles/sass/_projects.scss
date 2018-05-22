@@ -9,7 +9,7 @@
 	overflow: hidden !important;
 	padding-left: 75px;
 	padding-right: 75px;
-	height: 300px;
+	min-height: 300px;
 	@include display(flex);
 	@include flex-direction(column);
 	@include justify-content(center);

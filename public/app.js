@@ -30,6 +30,15 @@
         description: "Site built in Shopify",
         src: "/assets/images/litty-logo.png"
        }
+    ],
+    $scope.projectstwo = [
+        {
+            name: "find-waldo-game",
+            href: "https://find-waldo-game.bitballoon.com/",
+            id: "waldogame",
+            description: "find waldo",
+            src: "/assets/images/zwaldo-logo.png"
+        }
     ]
        console.log($scope.projects);
     })

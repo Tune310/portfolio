@@ -95,7 +95,7 @@ a:hover {
   overflow: hidden !important;
   padding-left: 75px;
   padding-right: 75px;
-  height: 300px;
+  min-height: 300px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -434,9 +434,6 @@ li {
 
 #projects-wrapper a {
   transition: opacity 1s; }
-
-#projects-wrapper > a:nth-of-type(4n+1) {
-  clear: both !important; }
 
 #projects-wrapper a:hover {
   opacity: 0.7; }
