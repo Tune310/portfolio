@@ -37,7 +37,14 @@
             href: "https://find-waldo-game.bitballoon.com/",
             id: "waldogame",
             description: "find waldo",
-            src: "/assets/images/zwaldo-logo.png"
+            src: "/assets/images/zwaldo-logo.png",
+        },
+        {
+            name: "Fantasy Club House",
+            href: "https://www.fantasyclubhouse.com/",
+            id: "fantasyclubhouse",
+            src: "/assets/images/fantasyclubhouse-logo.png"
+
         }
     ]
        console.log($scope.projects);
