@@ -4,7 +4,7 @@
        $scope.projects = [
        {
         name: "TravelZeeky",
-        href: "https://travelzeeky.com/allroads",
+        href: "https://www.travelzeeky.com/",
         id: "travelzeeky",
         description: "Travel site for dicounts made with PHP",
         src: "/assets/images/travelzeeky-logo.png"
