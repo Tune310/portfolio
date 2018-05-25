@@ -25,7 +25,7 @@
        },
        {
         name: "LittyTrend",
-        href: "https://Littytrend.com/",
+        href: "https://littytrend.com/",
         id: "littytrend",
         description: "Site built in Shopify",
         src: "/assets/images/litty-logo.png"
@@ -44,6 +44,13 @@
             href: "https://www.fantasyclubhouse.com/",
             id: "fantasyclubhouse",
             src: "/assets/images/fantasyclubhouse-logo.png"
+
+        },
+        {
+            name: "Pegasus Investments",
+            href: "https://www.pegasusinvestments.com/",
+            id: "pegasusinvestments",
+            src: "/assets/images/pegasusinvestments-logo-black.png"
 
         }
     ]
