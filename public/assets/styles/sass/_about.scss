@@ -1,6 +1,6 @@
 .hero-banner {
 	width: 100%;
-	height: 600px;
+	height: 620px;
 	background: url('/assets/images/grid.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
@@ -12,20 +12,24 @@
 .hero-content {
 	@include display(flex);
 	@include flex-direction(column);
-	padding: 2% 4%;
+	padding: 0% 3%;
 	width: 50%;
-	height: 70%;
+	min-height: 420px;
+	text-align: center;
 	margin: 0 auto;
 	background-color: rgba(141,144,148,0.5);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	p:last-child {
+		margin-top: 0px !important;
+	}
 	a {
 		color: white;
 	}
 	h3 {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 600;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 	}
 	@media screen and (min-width: 415px) {
 		p {
@@ -33,7 +37,7 @@
 		}
 	} 
 	@media screen and (max-width: 480px) {
-		width: 57%;
+		width: 80%;
 		overflow: hidden !important;
 	} 
 	@media screen and (max-width: 360px) {
@@ -46,4 +50,26 @@
 
 .fa-laptop {
 	margin-bottom: 10px;
+}
+
+
+.header-head {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header-head img {
+	width: 160px;
+	height: 160px;
+}
+
+.about-footer span {
+	position: relative;
+	top: 2px;
+	@media screen and (max-width: 1200px) {
+		top: 3px;
+	}
+	@media screen and (max-width: 480px) {
+	 	top: 6px;
+	 }  
 }

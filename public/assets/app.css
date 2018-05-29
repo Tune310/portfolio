@@ -12,7 +12,7 @@ a:hover {
 
 .hero-banner {
   width: 100%;
-  height: 600px;
+  height: 620px;
   background: url("/assets/images/grid.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
@@ -61,25 +61,28 @@ a:hover {
   -moz-flex-direction: column;
   flex-direction: column;
   -ms-flex-direction: column;
-  padding: 2% 4%;
+  padding: 0% 3%;
   width: 50%;
-  height: 70%;
+  min-height: 420px;
+  text-align: center;
   margin: 0 auto;
   background-color: rgba(141, 144, 148, 0.5);
   color: white;
   font-family: 'Open Sans', sans-serif; }
+  .hero-content p:last-child {
+    margin-top: 0px !important; }
   .hero-content a {
     color: white; }
   .hero-content h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 20px; }
+    margin-bottom: 5px; }
   @media screen and (min-width: 415px) {
     .hero-content p {
       margin: 10px 0px; } }
   @media screen and (max-width: 480px) {
     .hero-content {
-      width: 57%;
+      width: 80%;
       overflow: hidden !important; } }
   @media screen and (max-width: 360px) {
     .hero-content {
@@ -90,6 +93,24 @@ a:hover {
 
 .fa-laptop {
   margin-bottom: 10px; }
+
+.header-head {
+  margin: 0 auto;
+  text-align: center; }
+
+.header-head img {
+  width: 160px;
+  height: 160px; }
+
+.about-footer span {
+  position: relative;
+  top: 2px; }
+  @media screen and (max-width: 1200px) {
+    .about-footer span {
+      top: 3px; } }
+  @media screen and (max-width: 480px) {
+    .about-footer span {
+      top: 6px; } }
 
 #projects-wrapper {
   overflow: hidden !important;
