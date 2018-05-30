@@ -77,6 +77,15 @@ a:hover {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px; }
+  @media screen and (max-width: 1200px) {
+    .hero-content {
+      width: 60%; } }
+  @media screen and (max-width: 1000px) {
+    .hero-content {
+      width: 70%; } }
+  @media screen and (max-width: 800px) {
+    .hero-content {
+      width: 80%; } }
   @media screen and (min-width: 415px) {
     .hero-content p {
       margin: 10px 0px; } }
@@ -84,6 +93,9 @@ a:hover {
     .hero-content {
       width: 80%;
       overflow: hidden !important; } }
+  @media screen and (max-width: 435px) {
+    .hero-content {
+      width: 87.5%; } }
   @media screen and (max-width: 360px) {
     .hero-content {
       height: 75% !important; } }
@@ -198,7 +210,11 @@ a:hover {
     #projects-wrapper {
       height: 100%; }
       #projects-wrapper img {
-        margin: 10px 0px; } }
+        margin: 10px 0px; }
+      #projects-wrapper ul:first-child {
+        margin-bottom: 0px; }
+      #projects-wrapper ul:last-child {
+        padding-top: 0px; } }
 
 h1#projects-header {
   margin-top: 10px !important; }
