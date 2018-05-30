@@ -287,6 +287,9 @@ div#contact {
   align-items: center;
   -ms-flex-align: center;
   height: 475px; }
+  @media screen and (max-width: 765px) {
+    div#contact iframe {
+      margin-left: 18px; } }
   @media screen and (max-width: 600px) {
     div#contact {
       -webkit-box-orient: vertical;
@@ -309,15 +312,21 @@ div#contact {
         height: 790px; } }
   @media screen and (max-width: 480px) {
     div#contact {
-      width: 90%; } }
+      width: 90%; }
+      div#contact iframe {
+        margin-left: 0px; } }
   div#contact ul.contact-wrapper {
     height: 300px; }
     div#contact ul.contact-wrapper li {
       font-family: 'Open Sans', sans-serif; }
     div#contact ul.contact-wrapper a {
       color: black !important; }
+    @media screen and (max-width: 765px) {
+      div#contact ul.contact-wrapper {
+        margin-right: 30px; } }
     @media screen and (max-width: 600px) {
       div#contact ul.contact-wrapper {
+        margin-right: 0px;
         padding-left: 0px !important; } }
 
 html, body {
