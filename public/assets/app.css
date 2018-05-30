@@ -289,7 +289,8 @@ div#contact {
   height: 475px; }
   @media screen and (max-width: 765px) {
     div#contact iframe {
-      margin-left: 18px; } }
+      margin-left: 30px;
+      margin-right: 30px; } }
   @media screen and (max-width: 600px) {
     div#contact {
       -webkit-box-orient: vertical;
@@ -323,11 +324,11 @@ div#contact {
       color: black !important; }
     @media screen and (max-width: 765px) {
       div#contact ul.contact-wrapper {
-        margin-right: 30px; } }
+        margin-right: 30px;
+        padding-left: 0px !important; } }
     @media screen and (max-width: 600px) {
       div#contact ul.contact-wrapper {
-        margin-right: 0px;
-        padding-left: 0px !important; } }
+        margin-right: 0px; } }
 
 html, body {
   height: 100%;
