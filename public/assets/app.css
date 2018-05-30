@@ -162,7 +162,7 @@ a:hover {
   @media screen and (min-height: 1900px) {
     #projects-wrapper {
       height: 550px; } }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     #projects-wrapper {
       padding-left: 0px;
       padding-right: 0px; } }
@@ -192,7 +192,7 @@ a:hover {
     -o-align-items: center;
     align-items: center;
     -ms-flex-align: center; }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 765px) {
       #projects-wrapper ul {
         -webkit-box-orient: vertical;
         -moz-box-orient: vertical;
@@ -206,8 +206,27 @@ a:hover {
         -ms-flex-direction: column; }
         #projects-wrapper ul li {
           margin: 15px 0px; } }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 765px) {
     #projects-wrapper {
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -moz-box-direction: normal;
+      box-direction: normal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-direction: row;
+      -webkit-box-pack: space-evenly;
+      -moz-box-pack: space-evenly;
+      box-pack: space-evenly;
+      -webkit-justify-content: space-evenly;
+      -moz-justify-content: space-evenly;
+      -ms-justify-content: space-evenly;
+      -o-justify-content: space-evenly;
+      justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
       height: 100%; }
       #projects-wrapper img {
         margin: 10px 0px; }
@@ -215,6 +234,18 @@ a:hover {
         margin-bottom: 0px; }
       #projects-wrapper ul:last-child {
         padding-top: 0px; } }
+  @media screen and (max-width: 480px) {
+    #projects-wrapper {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-box-direction: normal;
+      -moz-box-direction: normal;
+      box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column; } }
 
 h1#projects-header {
   margin-top: 10px !important; }

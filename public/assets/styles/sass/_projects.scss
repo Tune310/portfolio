@@ -13,7 +13,7 @@
 	@include display(flex);
 	@include flex-direction(column);
 	@include justify-content(center);
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 1000px) {
 		padding-left: 0px;
 		padding-right: 0px;
 	} 
@@ -22,7 +22,7 @@
 		@include display(flex);
 		@include justify-content(space-around);
 		@include align-items(center);
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 765px) {
 			@include flex-direction(column);
 			li {
 				margin: 15px 0px;
@@ -31,7 +31,9 @@
 	}
 
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 765px) {
+		@include flex-direction(row);
+		@include justify-content(space-evenly);
 		height: 100%;
 		img	{
 			margin: 10px 0px;
@@ -42,7 +44,10 @@
 		ul:last-child {
  			padding-top: 0px
 		}		
-	} 
+	}
+	@media screen and (max-width: 480px) {
+	 	@include flex-direction(column);
+	 }  
 }
 
 h1#projects-header {
