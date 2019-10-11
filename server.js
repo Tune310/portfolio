@@ -10,6 +10,6 @@ app.get('*', function(req, res) {
     });
 
 
-var port = 80; // you can use any port
+var port = 8000; // you can use any port
 app.listen(port);
 console.log('server on port: ' + port);
