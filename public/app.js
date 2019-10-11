@@ -4,7 +4,7 @@
        $scope.projects = [
        {
         name: "TravelZeeky",
-        href: "https://www.travelzeeky.com/",
+        href: "https://www.travelzeeky.com/allroads",
         id: "travelzeeky",
         description: "Travel site for dicounts made with PHP",
         src: "/assets/images/travelzeeky-logo.png"
@@ -17,18 +17,18 @@
         src: "/assets/images/buzzbar-logo.png"
        },       
        {
-        name: "Start or Sit",
-        href: "https://startorsit.com/",
-        id: "startorsit",
-        description: "This site was made with php and Laravel Framework",
-        src: "/assets/images/SOS-full-logo-white.png"
+        name: "San Antonio Winery",
+        href: "https://sanantoniowinery.com/",
+        id: "sanantonio-winery",
+        description: "This site was made with Wordpress and php",
+        src: "/assets/images/sanantoniowinery-logo.png"
        },
        {
-        name: "LittyTrend",
-        href: "https://littytrend.com/",
-        id: "littytrend",
-        description: "Site built in Shopify",
-        src: "/assets/images/litty-logo.png"
+        name: "Pacific Dimensions",
+        href: "https://www.pacificdimensions.com/",
+        id: "pacific-dimensions",
+        description: "Site built in Wordpress",
+        src: "/assets/images/pacificdimensions-logo.png"
        }
     ],
     $scope.projectstwo = [
